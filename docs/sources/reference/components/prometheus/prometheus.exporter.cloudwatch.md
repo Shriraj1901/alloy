@@ -26,7 +26,7 @@ There are two kinds of jobs: [discovery][] and [static][].
 ## Authentication
 
 {{< param "PRODUCT_NAME" >}} must be running in an environment with access to AWS.
-The exporter uses the [AWS SDK for Go](https://aws.github.io/aws-sdk-go-v2/docs/getting-started/) and provides authentication via the [AWS default credential chain](https://aws.github.io/aws-sdk-go-v2/docs/configuring-sdk/#specifying-credentials).
+The exporter uses the [AWS SDK for Go](https://docs.aws.amazon.com/sdk-for-go/v2/developer-guide/getting-started.html) and provides authentication via the [AWS default credential chain](https://docs.aws.amazon.com/sdk-for-go/v2/developer-guide/configure-gosdk.html#specifying-credentials).
 Regardless of the method used to acquire the credentials, some permissions are required for the exporter to work.
 
 ```text

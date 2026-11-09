@@ -12,7 +12,7 @@ title: discovery.marathon
 
 # `discovery.marathon`
 
-`discovery.marathon` allows you to retrieve scrape targets from [Marathon's](https://mesosphere.github.io/marathon/) Service API.
+`discovery.marathon` allows you to retrieve scrape targets from [Marathon's](https://github.com/d2iq-archive/marathon) Service API.
 
 ## Usage
 

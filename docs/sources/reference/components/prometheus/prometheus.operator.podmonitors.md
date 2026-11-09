@@ -12,7 +12,7 @@ title: prometheus.operator.podmonitors
 
 # `prometheus.operator.podmonitors`
 
-`prometheus.operator.podmonitors` discovers [PodMonitor](https://prometheus-operator.dev/docs/operator/api/#monitoring.coreos.com/v1.PodMonitor) resources in your Kubernetes cluster and scrapes the targets they reference.
+`prometheus.operator.podmonitors` discovers [PodMonitor](https://prometheus-operator.dev/docs/api-reference/api/#monitoring.coreos.com/v1.PodMonitor) resources in your Kubernetes cluster and scrapes the targets they reference.
 This component performs three main functions:
 
 1. Discover PodMonitor resources from your Kubernetes cluster.

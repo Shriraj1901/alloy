@@ -31,7 +31,7 @@ You can specify multiple `otelcol.auth.sigv4` components by giving them differen
 {{< admonition type="note" >}}
 {{< param "PRODUCT_NAME" >}} must have valid AWS credentials as used by the [AWS SDK for Go][].
 
-[AWS SDK for Go]: https://aws.github.io/aws-sdk-go-v2/docs/configuring-sdk/#specifying-credentials
+[AWS SDK for Go]: https://docs.aws.amazon.com/sdk-for-go/v2/developer-guide/configure-gosdk.html#specifying-credentials
 {{< /admonition >}}
 
 ## Usage
