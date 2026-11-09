@@ -51,7 +51,7 @@ The following example provides a target with a custom `metricsPath`, scrape inte
       "targets" : [
          "custom-api:443"
       ]
-   },
+   }
 ]
 
 ```
@@ -74,7 +74,7 @@ The following example calls the metrics path `/health?target_data=prometheus`:
       "targets" : [
          "custom-api:443"
       ]
-   },
+   }
 ]
 
 ```

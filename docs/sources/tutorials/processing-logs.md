@@ -156,9 +156,9 @@ Here is the example log line:
     "log": {
         "is_secret": "true",
         "level": "info",
-        "message": "This is a secret message!",
+        "message": "This is a secret message!"
     },
-    "timestamp": "2023-11-16T06:01:50Z",
+    "timestamp": "2023-11-16T06:01:50Z"
 }
 ```
 
@@ -203,9 +203,9 @@ Extracted map _after_ performing this stage:
     "log": {
         "is_secret": "true",
         "level": "info",
-        "message": "This is a secret message!",
+        "message": "This is a secret message!"
     },
-    "ts": "2023-11-16T06:01:50Z",
+    "ts": "2023-11-16T06:01:50Z"
 }
 ```
 
@@ -267,9 +267,9 @@ Extracted map _before_ performing this stage:
     "log": {
         "is_secret": "true",
         "level": "info",
-        "message": "This is a secret message!",
+        "message": "This is a secret message!"
     },
-    "ts": "2023-11-16T06:01:50Z",
+    "ts": "2023-11-16T06:01:50Z"
 }
 ```
 
@@ -280,12 +280,12 @@ Extracted map _after_ performing this stage:
     "log": {
         "is_secret": "true",
         "level": "info",
-        "message": "This is a secret message!",
+        "message": "This is a secret message!"
     },
     "ts": "2023-11-16T06:01:50Z",
     "is_secret": "true",
     "level": "info",
-    "log_line": "This is a secret message!",
+    "log_line": "This is a secret message!"
 }
 ```
 
